@@ -1,0 +1,349 @@
+[
+  {
+    "ts": "2020-05-19T08:01:05.810Z",
+    "level": "error",
+    "error": {
+      "name": "VersionMismatch",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "dc7ep905o1dv"
+            }
+          },
+          "id": "5lzMxuCX84uYqmgGmU8iKU",
+          "type": "Entry",
+          "createdAt": "2020-05-19T05:35:39.639Z",
+          "updatedAt": "2020-05-19T08:00:28.199Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 77,
+          "publishedAt": "2020-05-19T06:58:18.432Z",
+          "firstPublishedAt": "2020-05-19T05:35:41.199Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1vMHIHZMIlLdPx6S4HTrgt"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1vMHIHZMIlLdPx6S4HTrgt"
+            }
+          },
+          "publishedCounter": 4,
+          "version": 81,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1vMHIHZMIlLdPx6S4HTrgt"
+            }
+          },
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "about"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Mate"
+          },
+          "description": {
+            "en-US": "Gatsby v2 starter to create a top notch portfolio!"
+          },
+          "roles": {
+            "en-US": [
+              "Quick setup 🚀",
+              "Responsive 📱",
+              "PWA ✨",
+              "Contentful CMS 🔧"
+            ]
+          },
+          "socialLinks": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4SrlLN9bt6Yew2UyGgM06a"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "3DpgtG8qI8QCWyEAuME4Ku"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "114ApRkJZq640w8G2GwM8w"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4J6WFTjoMUCmQKuKAaOsqE"
+                }
+              }
+            ]
+          },
+          "profile": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6nf3rNaaVaUqYcoAcciSeC"
+              }
+            }
+          },
+          "aboutMe": {
+            "en-US": "Hello 👋 I'm Mate a gatsby starter which is focus on simplicity and extensibility. It's build with Gatsby(duh), [Rebass](https://jxnblk.com/rebass/) (styled-component system) and [Contentful](https://www.contentful.com/).\n\nThe starter will give you 4 sections (it's really easy to add more if you want 😃):\n* [Landing:](#home) Displays a nice greeting with your name, also your roles (what you  are) and all your social links.\n* [About:](#about) Show the about section where you can write about who you are, what you like to do, etc. Also you can add a photo next to it!\n* [Project:](#projects) Displays a card for all your project that you've made and also the posibility to link with github or and external link.\n* [Writing:](#writing) Take the information about your medium user and show up to 6 stories as cards with the link to Medium."
+          },
+          "mediumUser": {
+            "en-US": "@mate.starter"
+          },
+          "projects": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6Y7EIx73nUCWuoIWcsuM00"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "2GKNR2f4z6IwAg6a2MmKCc"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5paxSRHbAkmgMc4WSW8S66"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 409,
+        "statusText": "Conflict",
+        "message": "",
+        "details": {},
+        "request": {
+          "url": "entries/5lzMxuCX84uYqmgGmU8iKU/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/7.7.16; feature library-import; sdk contentful-management.js/5.26.2; platform node.js/v12.16.3; os Linux/5.0.0-38-generic;",
+            "Authorization": "Bearer ...hCD-k",
+            "user-agent": "node.js/v12.16.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 81
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "c976bd0133448b9ee81d6606fc0e5db1"
+      }
+    }
+  },
+  {
+    "ts": "2020-05-19T08:01:17.732Z",
+    "level": "error",
+    "error": {
+      "name": "VersionMismatch",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "dc7ep905o1dv"
+            }
+          },
+          "id": "5lzMxuCX84uYqmgGmU8iKU",
+          "type": "Entry",
+          "createdAt": "2020-05-19T05:35:39.639Z",
+          "updatedAt": "2020-05-19T08:00:28.199Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 77,
+          "publishedAt": "2020-05-19T06:58:18.432Z",
+          "firstPublishedAt": "2020-05-19T05:35:41.199Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1vMHIHZMIlLdPx6S4HTrgt"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1vMHIHZMIlLdPx6S4HTrgt"
+            }
+          },
+          "publishedCounter": 4,
+          "version": 81,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1vMHIHZMIlLdPx6S4HTrgt"
+            }
+          },
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "about"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Mate"
+          },
+          "description": {
+            "en-US": "Gatsby v2 starter to create a top notch portfolio!"
+          },
+          "roles": {
+            "en-US": [
+              "Quick setup 🚀",
+              "Responsive 📱",
+              "PWA ✨",
+              "Contentful CMS 🔧"
+            ]
+          },
+          "socialLinks": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4SrlLN9bt6Yew2UyGgM06a"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "3DpgtG8qI8QCWyEAuME4Ku"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "114ApRkJZq640w8G2GwM8w"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4J6WFTjoMUCmQKuKAaOsqE"
+                }
+              }
+            ]
+          },
+          "profile": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6nf3rNaaVaUqYcoAcciSeC"
+              }
+            }
+          },
+          "aboutMe": {
+            "en-US": "Hello 👋 I'm Mate a gatsby starter which is focus on simplicity and extensibility. It's build with Gatsby(duh), [Rebass](https://jxnblk.com/rebass/) (styled-component system) and [Contentful](https://www.contentful.com/).\n\nThe starter will give you 4 sections (it's really easy to add more if you want 😃):\n* [Landing:](#home) Displays a nice greeting with your name, also your roles (what you  are) and all your social links.\n* [About:](#about) Show the about section where you can write about who you are, what you like to do, etc. Also you can add a photo next to it!\n* [Project:](#projects) Displays a card for all your project that you've made and also the posibility to link with github or and external link.\n* [Writing:](#writing) Take the information about your medium user and show up to 6 stories as cards with the link to Medium."
+          },
+          "mediumUser": {
+            "en-US": "@mate.starter"
+          },
+          "projects": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6Y7EIx73nUCWuoIWcsuM00"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "2GKNR2f4z6IwAg6a2MmKCc"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5paxSRHbAkmgMc4WSW8S66"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 409,
+        "statusText": "Conflict",
+        "message": "",
+        "details": {},
+        "request": {
+          "url": "entries/5lzMxuCX84uYqmgGmU8iKU/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/7.7.16; feature library-import; sdk contentful-management.js/5.26.2; platform node.js/v12.16.3; os Linux/5.0.0-38-generic;",
+            "Authorization": "Bearer ...hCD-k",
+            "user-agent": "node.js/v12.16.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 81
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "0b86fb3696b0309febdff52cb909b6b1"
+      }
+    }
+  },
+  {
+    "ts": "2020-05-19T08:01:17.732Z",
+    "level": "error",
+    "error": "Could not publish the following entities: Mate (5lzMxuCX84uYqmgGmU8iKU)"
+  }
+]
