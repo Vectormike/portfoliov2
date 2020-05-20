@@ -6,7 +6,7 @@
   "scripts": {
     "build": "gatsby clean && gatsby build",
     "develop": "gatsby clean && gatsby develop",
-    "start": "npm develop",
+    "start": "npm run develop",
     "serve": "npm build && gatsby serve -p 9000",
     "lint": "eslint ./src",
     "setup": "node ./bin/setup.js",
